@@ -32,7 +32,7 @@ class  App extends React.Component {
   render() {
     const { inputValue, values, alert} = this.state;
     return (
-      <div>
+      <div className='wrapper'>
      <h3>A Message You Would Like To Pass</h3>
       <div>
         <input
